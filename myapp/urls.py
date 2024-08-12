@@ -1,4 +1,11 @@
-from django.urls import path, re_path
+"""
+URL configuration for the myapp application.
+
+This module maps URLs to views, including the integration
+with the FastAPI application through the `fastapi_view`.
+"""
+
+from django.urls import re_path
 from . import views
 
 urlpatterns = [
